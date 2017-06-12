@@ -1,0 +1,262 @@
+<html>
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="proyectodiseno.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+
+    <style type="text/css">
+        .tg-dib5 {
+            font-weight: bold;
+            background-color: #bce8f1;
+            color: #4c4c4c;
+            text-align: center
+        }
+
+        .tg-d19r {
+            font-weight: bold;
+            background-color: #bce8f1;
+            color: #fff
+        }
+    </style>
+    <style type="text/css">
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .tg td {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 10px 5px;
+            border-style: solid;
+            border-width: 1px;
+            overflow: hidden;
+            word-break: normal;
+        }
+
+        .tg th {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            padding: 10px 5px;
+            border-style: solid;
+            border-width: 1px;
+            overflow: hidden;
+            word-break: normal;
+        }
+
+        th {
+            font-weight: bold;
+            background-color: #bce8f1;
+            color: #4c4c4c;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="padding:10px;">
+
+        <ul class="nav nav-pills" role="tablist">
+            <li role="presentation" class="active"><a href="#"><i class="glyphicon glyphicon-send"></i>&nbsp;&nbsp;Abierto <span class="badge">3</span></a></li>
+            <li role="presentation"><a href="#"><i class="glyphicon glyphicon-remove"></i> Cerrados<span class="badge">3</span></a></li>
+            <li role="presentation"><a href="#"><i class="glyphicon glyphicon-open-file"></i>&nbsp;Nuevo Ticket</a></li>
+        </ul>
+
+
+        <div role="tabpanel" class="tab-pane" id="supervisor">
+            <br>
+            <div class="panel panel-info">
+                <!-- Default panel contents -->
+                <div class="panel-heading">
+
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <h3 style="color:#4c4c4c">
+                                <p style="font-family: " Times New Roman ""><i style="color:green;" class="glyphicon glyphicon-refresh"></i> Ticket <i>#22719</i></p>
+                            </h3>
+
+                        </div>
+
+                        <div align="right" class="col-xs-8">
+                            <h3>
+                                <button type="button" class="btn btn-xs btn-default"><i class="glyphicon glyphicon-remove"></i> Cancelar</button>
+                                <button type="button" class="btn btn-xs btn-default"><i class="glyphicon glyphicon-print"></i> Imprimir</button>
+                                <button type="button" class="btn btn-xs btn-warning"><i class="glyphicon glyphicon-pencil"></i> Edit</button>
+                                <button type="button" class="btn btn-xs btn-success"><i class="glyphicon glyphicon-user"></i> Cisism</button>
+                                <button type="button" class="btn btn-xs btn-danger"><i class="glyphicon glyphicon-minus"></i> Eliminar</button>
+                             
+                                 <div class="btn-group">
+                                <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="glyphicon glyphicon-cog"></i> Más...  <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Hola</a></li>
+                                    <li><a href="#">Hola</a></li>
+                                    <li><a href="#">Hola</a></li>
+                                </ul>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tabla Supervisor -->
+                <table class="tg table table-bordered table-striped" style="border:1px solid #ddd;">
+                    <tr>
+                        <th width='20%'><b>Estado:</b></th>
+                        <td width='30%'>Abierto</td>
+                        <th width='20%'><b>Nombre:</b></th>
+                        <td width='30%'>Martin</td>
+                    </tr>
+                    <tr>
+                        <th><b>Prioridad</b></th>
+                        <td><i style="color:red;" class="fa fa-thermometer-full" aria-hidden="true"></i> Alta</td>
+                        <th><b>E-Mail:</b></th>
+                        <td>asechooriginal@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th><b>Departamento:</b></th>
+                        <td>Soporte</td>
+                        <th><b>Teléfono:</b></th>
+                        <td>+569 641 33 652</td>
+                    </tr>
+                    <tr>
+                        <th><b>Crear cita:</b></th>
+                        <td>04/07/2017 16:00</td>
+                        <th><b>Fuente:</b></th>
+                        <td>Web <i style="color:gray;">(75.75.160.253)</i></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <table class="tg table table-bordered table-striped" style="border:1px solid #ddd;">
+                    <tr>
+                        <th width='20%'><b>Asignado a:</b></th>
+                        <td width='30%'>--Unassigned--</td>
+                        <th width='20%'><b>Tópico de ayuda:</b></th>
+                        <td width='30%'>Soporte</td>
+                    </tr>
+                    <tr>
+                        <th><b>SLA Plan:</b></th>
+                        <td>Default SLA</td>
+                        <th><b>Último mensaje:</b></th>
+                        <td>04/23/2016 6:08</td>
+                    </tr>
+                    <tr>
+                        <th><b>Fecha de Vencimiento:</b></th>
+                        <td>04/11/2017</td>
+                        <th><b>Última respuesta:</b></th>
+                        <td>03/05/2017 7:43</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+            </div>
+
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="#crearticket" aria-controls="home" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-duplicate"></i> Hilo de Ticket</a></li>
+            </ul>
+            <table class="tg table table-bordered table-striped">
+                <tr>
+                    <td class="success" width='20%'><i class="glyphicon glyphicon-time"></i> 04/23/2017 16:44 pm</td>
+                </tr>
+                <tr>
+                    <td>Hola, mundo!</td>
+                </tr>
+            </table>
+            <!-- Button trigger modal -->
+            <div align="center">
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    <i class="fa fa-reply-all" aria-hidden="true"></i>
+                Respuesta Ticket
+                </button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <div class="row">
+                                <div class="col-xs-2">
+                                    <h5>Para:</h5>
+                                </div>
+                                <div class="col-xs-4">
+                                    <h5><i>asechooriginal@gmail.com</i></h5>
+                                </div>
+                                <div class="col-xs-4">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Respuesta E-Mail</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-xs-2">
+                                    <h5>Respuesta:</h5>
+                                </div>
+                                <div class="col-xs-5">
+                                    <select class="form-control">
+                                        <option>Problema con Ticket</option>
+                                        <option>Tópico de ayuda</option>
+                                        <option>Reclamo de vendedor</option>
+                                        <option>Devolución de producto</option>
+                                        <option><b>Otros...</b></option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-2" style="top:4px;">
+                                    <label><input type="checkbox" value=""></label> Adjuntar
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <textarea class="form-control" rows="7"></textarea>
+                            <br>
+                            <div class="row">
+                                <div class="col-xs-3" style="top:3;">
+                                    <h5> Adjuntar Firma: </h5>
+                                </div>
+                                <div class="col-xs-1">
+                                    <div class="radio">
+                                        <span>
+                                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                            No
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-xs-1">
+                                    <div class="radio">
+                                        <span>
+                                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                            Firma
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6" style="top:12px;">
+                                    <span>
+                                        
+                                    <input type="file" id="exampleInputFile">
+                                    </span>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-warning"><i class="glyphicon glyphicon-retweet"></i>  Reiniciar</button>
+                            <button type="button" class="btn btn-success"><i class="glyphicon glyphicon-send"></i>  Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
